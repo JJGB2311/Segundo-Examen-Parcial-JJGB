@@ -35,7 +35,6 @@
             this.manteniemientoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.areaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.procesosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.seguridadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.despuesDeLaCuarentenaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.juanJoseGamezBlanco09011947ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -43,6 +42,9 @@
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.LblUsuario = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
+            this.informesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.heramientasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.seguridadToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
             this.SuspendLayout();
@@ -53,7 +55,8 @@
             this.inicioToolStripMenuItem,
             this.manteniemientoToolStripMenuItem,
             this.procesosToolStripMenuItem,
-            this.seguridadToolStripMenuItem,
+            this.heramientasToolStripMenuItem,
+            this.informesToolStripMenuItem,
             this.ayudaToolStripMenuItem,
             this.juanJoseGamezBlanco09011947ToolStripMenuItem});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
@@ -66,8 +69,8 @@
             // 
             this.inicioToolStripMenuItem.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.inicioToolStripMenuItem.Name = "inicioToolStripMenuItem";
-            this.inicioToolStripMenuItem.Size = new System.Drawing.Size(61, 24);
-            this.inicioToolStripMenuItem.Text = "Inicio";
+            this.inicioToolStripMenuItem.Size = new System.Drawing.Size(55, 24);
+            this.inicioToolStripMenuItem.Text = "Abrir";
             // 
             // manteniemientoToolStripMenuItem
             // 
@@ -75,13 +78,13 @@
             this.areaToolStripMenuItem});
             this.manteniemientoToolStripMenuItem.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.manteniemientoToolStripMenuItem.Name = "manteniemientoToolStripMenuItem";
-            this.manteniemientoToolStripMenuItem.Size = new System.Drawing.Size(146, 24);
-            this.manteniemientoToolStripMenuItem.Text = "Manteniemiento ";
+            this.manteniemientoToolStripMenuItem.Size = new System.Drawing.Size(91, 24);
+            this.manteniemientoToolStripMenuItem.Text = "Catalogo";
             // 
             // areaToolStripMenuItem
             // 
             this.areaToolStripMenuItem.Name = "areaToolStripMenuItem";
-            this.areaToolStripMenuItem.Size = new System.Drawing.Size(114, 24);
+            this.areaToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
             this.areaToolStripMenuItem.Text = "Area";
             this.areaToolStripMenuItem.Click += new System.EventHandler(this.areaToolStripMenuItem_Click);
             // 
@@ -91,13 +94,6 @@
             this.procesosToolStripMenuItem.Name = "procesosToolStripMenuItem";
             this.procesosToolStripMenuItem.Size = new System.Drawing.Size(87, 24);
             this.procesosToolStripMenuItem.Text = "Procesos";
-            // 
-            // seguridadToolStripMenuItem
-            // 
-            this.seguridadToolStripMenuItem.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.seguridadToolStripMenuItem.Name = "seguridadToolStripMenuItem";
-            this.seguridadToolStripMenuItem.Size = new System.Drawing.Size(95, 24);
-            this.seguridadToolStripMenuItem.Text = "Seguridad";
             // 
             // ayudaToolStripMenuItem
             // 
@@ -147,6 +143,28 @@
             this.LblUsuario.Size = new System.Drawing.Size(21, 20);
             this.LblUsuario.Text = "...";
             // 
+            // informesToolStripMenuItem
+            // 
+            this.informesToolStripMenuItem.Font = new System.Drawing.Font("Century Gothic", 11.25F);
+            this.informesToolStripMenuItem.Name = "informesToolStripMenuItem";
+            this.informesToolStripMenuItem.Size = new System.Drawing.Size(84, 24);
+            this.informesToolStripMenuItem.Text = "Informes";
+            // 
+            // heramientasToolStripMenuItem
+            // 
+            this.heramientasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.seguridadToolStripMenuItem1});
+            this.heramientasToolStripMenuItem.Font = new System.Drawing.Font("Century Gothic", 11.25F);
+            this.heramientasToolStripMenuItem.Name = "heramientasToolStripMenuItem";
+            this.heramientasToolStripMenuItem.Size = new System.Drawing.Size(112, 24);
+            this.heramientasToolStripMenuItem.Text = "Heramientas";
+            // 
+            // seguridadToolStripMenuItem1
+            // 
+            this.seguridadToolStripMenuItem1.Name = "seguridadToolStripMenuItem1";
+            this.seguridadToolStripMenuItem1.Size = new System.Drawing.Size(180, 24);
+            this.seguridadToolStripMenuItem1.Text = "Seguridad ";
+            // 
             // _2do_Parcial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -181,12 +199,14 @@
         private System.Windows.Forms.ToolStripMenuItem inicioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem manteniemientoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem procesosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem seguridadToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem despuesDeLaCuarentenaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem juanJoseGamezBlanco09011947ToolStripMenuItem;
         private System.Windows.Forms.ToolStripStatusLabel LblUsuario;
         private System.Windows.Forms.ToolStripMenuItem areaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem heramientasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem seguridadToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem informesToolStripMenuItem;
     }
 }
 

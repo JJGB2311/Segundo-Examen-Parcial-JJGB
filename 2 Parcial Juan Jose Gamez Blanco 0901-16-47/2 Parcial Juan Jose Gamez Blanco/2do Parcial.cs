@@ -101,5 +101,10 @@ namespace _2_Parcial_Juan_Jose_Gamez_Blanco
             nuevo.MdiParent = this.MdiParent;
             nuevo.Show();
         }
+
+        private void seguridadToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
